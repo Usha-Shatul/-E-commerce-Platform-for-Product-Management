@@ -16,61 +16,10 @@ This project is a full-featured e-commerce website built using modern backend an
 - Stripe Payment Gateway Integration
 - Responsive Frontend (React)
 - Secure Backend (Spring Boot)
-- Dockerized Microservices
 - CI/CD Pipeline
-- AWS Deployment
 
----
 
-## 🛠 Tech Stack
 
-### 🔙 Backend:
-- Java 17
-- Spring Boot
-- Spring Data JPA
-- PostgreSQL
-- Spring Security + JWT
-- Stripe SDK
-- Docker
-- Maven
-
-### 🔜 Frontend:
-- React.js
-- Axios
-- React Router
-- Tailwind CSS
-
-### 🚀 Deployment:
-- AWS EC2 / S3 / RDS
-- GitHub Actions for CI/CD
-- Docker Compose
-
----
-
-## ⚡️ Quick Start
-
-## 🖥️ Local Installation
-
-### Backend Setup
-
-#### Prerequisites
-- Java 17+
-- Maven
-- PostgreSQL (or use Docker, see below)
-
-#### Environment Variables
-Copy the example file and fill in values:
-```bash
-cp backend/.env.example backend/.env
-```
-
-Main variables:
-- `SPRING_DATASOURCE_URL`
-- `SPRING_DATASOURCE_USERNAME`
-- `SPRING_DATASOURCE_PASSWORD`
-- `JWT_SECRET`
-- `STRIPE_SECRET_KEY`
-- (others as required)
 
 #### Run Backend
 
@@ -151,18 +100,5 @@ fullstack-ecommerce/
 ├── frontend/        # React application
 ├── docker-compose.yml
 └── README.md
-```
 
----
 
-## 🤝 Contributing
-
-Contributions are welcome! Please open issues or submit pull requests for features, fixes, or improvements.
-
-1. Fork this repo
-2. Create your branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -am 'Add a new feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Create a new Pull Request
-
----
